@@ -1,0 +1,68 @@
+body{
+    background-color:aquamarine;
+    margin: 0;
+    padding: 0%;
+    height: 100vh;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.outer{
+    border: 5px solid black;
+    padding: 30px;
+    border-radius: 20px;
+    background-color: rgb(83, 80, 80);
+}
+.border{
+    background-color:#d7ead6;
+    height: auto;
+    width: 500px;
+    border: 10px solid black;
+    padding:20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    border-radius: 50px;
+    font-size: 3rem;
+}
+.label{
+    color:blue ;
+}
+/* Button Animation*/
+.btngroup{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+button {
+    margin-top: 30px;
+    padding: 17px 40px;
+    border-radius: 50px;
+    border: 0;
+    background-color: white;
+    box-shadow: rgb(0 0 0 / 5%) 0 0 8px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    font-size: 15px;
+    transition: all .5s ease;
+   }
+   
+   button:hover {
+    letter-spacing: 3px;
+    background-color: hsl(261deg 80% 48%);
+    color: hsl(0, 0%, 100%);
+    box-shadow: rgb(93 24 220) 0px 7px 29px 0px;
+   }
+   
+   button:active {
+    letter-spacing: 3px;
+    background-color: hsl(261deg 80% 48%);
+    color: hsl(0, 0%, 100%);
+    box-shadow: rgb(93 24 220) 0px 0px 0px 0px;
+    transform: translateY(10px);
+    transition: 100ms;
+   }
