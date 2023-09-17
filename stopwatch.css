@@ -66,3 +66,22 @@ button {
     transform: translateY(10px);
     transition: 100ms;
    }
+
+   @media screen and (max-width:650px) {
+    .btngroup{
+        flex-direction: column;
+        gap:0;
+    }
+    button {
+        margin-top: 15px;
+       }
+    .border{
+        background-color:#d7ead6;
+        height: auto;
+        width: 200px;
+        border: 10px solid black;
+        padding:20px;
+        border-radius: 35px;
+        font-size: 1.8rem;
+    }
+   }
